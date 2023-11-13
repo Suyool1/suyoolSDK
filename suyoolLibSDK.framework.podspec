@@ -15,7 +15,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/Suyool1/suyoolSDK.git', :tag => '0.0.2' }
   spec.frameworks   = ['Foundation', 'Security']
   spec.requires_arc = true
-
-
-spec.source_files = 'Headers/*.h'
+  spec.source_files = 'Headers', 'Headers/*.h'
 end
