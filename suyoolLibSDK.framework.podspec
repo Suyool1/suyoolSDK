@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "suyoolLibSDK"
-  spec.version      = '0.0.2'
+  spec.version      = '1.0'
   spec.summary      = "suyoolSDK is an open source framework that makes it easy to pay online in any iOS app"
 
   spec.homepage     = 'https://github.com/Suyool1/suyoolSDK.git'
@@ -12,8 +12,11 @@ Pod::Spec.new do |spec|
   spec.watchos.deployment_target = '2.0'
   spec.tvos.deployment_target    = '9.0'
 
-  spec.source       = { :git => 'https://github.com/Suyool1/suyoolSDK.git', :tag => '0.0.2' }
-  spec.frameworks   = ['Foundation', 'Security']
+  spec.source       = { :git => 'https://github.com/Suyool1/suyoolSDK.git', :tag => '1.0' }
   spec.requires_arc = true
-  spec.source_files = 'Headers', 'Headers/*.h'
+  spec.source_files = 'Headers'
+spec.frameworks = "UIKit"
+
 end
+
+
