@@ -1,6 +1,0 @@
-framework module suyoolLibSDK {
-  umbrella header "suyoolLibSDK.h"
-  export *
-
-  module * { export * }
-}
