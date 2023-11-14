@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name         = "suyoolLibSDK.framework"
+  spec.name         = "suyoolLibSDK"
   spec.version      = '0.0.2'
   spec.summary      = "suyoolSDK is an open source framework that makes it easy to pay online in any iOS app"
 
